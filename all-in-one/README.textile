@@ -6,7 +6,7 @@ Install @cgi-fcgi@ on your system, e.g. on OS X with
 
 @sudo port install cgi-fcgi@
 
-Install "http://maven.apache.org":Maven on your system
+Install "Maven":http://maven.apache.org on your system
 
 Build and run the project with Maven
 
