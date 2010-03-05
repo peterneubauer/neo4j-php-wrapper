@@ -2,6 +2,14 @@ This is a small test system, designed to demonstrate the integration of PHP and 
 
 To build and run it, do the following steps:
 
+Install @cgi-fcgi@ on your system, e.g. on OS X with
+
+@sudo port install cgi-fcgi@
+
+Install "http://maven.apache.org":Maven on your system
+
+Build and run the project with Maven
+
 @mvn clean install jetty:run@
 
 to view the PHP test, surf in to "http://localhost:8080/php/test.php":http://localhost:8080/php/test.php
